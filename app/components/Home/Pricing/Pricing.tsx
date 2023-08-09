@@ -2,7 +2,7 @@ import { PricingCard } from "./PricingCard";
 
 export function Pricing() {
   return (
-    <section className=" lg:px-[15%] px-[5%] py-9 flex flex-col items-center justify-center align-center">
+    <section className=" lg:px-[15%] px-[5%] py-9 flex flex-col items-center justify-center align-center" id="pricing">
       <div className="top flex flex-col gap-3 w-[60%] pb-12">
         <div className="section-name text-xl text-purple-400 text-center">
           Pricing

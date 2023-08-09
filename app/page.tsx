@@ -5,13 +5,11 @@ import { Pricing } from "./components/Home/Pricing/Pricing";
 
 export default function Home() {
   return (
-    <>
-      <main>
-        <Hero />
-        <Features />
-        <Pricing />
-        <Served />
-      </main>
-    </>
+    <main>
+      <Hero />
+      <Features />
+      <Pricing />
+      <Served />
+    </main>
   );
 }
