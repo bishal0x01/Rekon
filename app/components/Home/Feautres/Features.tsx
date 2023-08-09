@@ -2,7 +2,7 @@ import { Card } from "./Card";
 
 export function Features() {
   return (
-    <section className="flex flex-col items-center lg:px-[15%] px-[5%] py-9">
+    <section className="flex flex-col items-center lg:px-[15%] px-[5%] pt-9">
       <div className="top flex flex-col items-center lg:w-[50%] gap-3">
         <div className="section-name text-xl text-purple-400">Features</div>
         <div className="section-heading text-4xl font-bold text-center">

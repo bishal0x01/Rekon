@@ -5,8 +5,8 @@ export function Hero() {
         Rekon
       </div>
       <div className="des text-xl">For External Security Assessment</div>
-      <div className="cta w-fit border-2 border-[#d8d4d4] hover:border-white cursor-pointer rounded-lg px-4 py-2">
-        <a>Get Started</a>
+      <div className="cta w-fit border-2 border-[#d8d4d4] hover:border-white cursor-pointer text-xl px-6 transition duration-200 hover:scale-105 py-4">
+        <a>Check the Pricing</a>
       </div>
     </section>
   );

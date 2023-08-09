@@ -1,4 +1,4 @@
-export function Card(props) {
+export function Card(props: any) {
   return (
     <div className="flex flex-col items-center rounded-lg bg-[#27272a] px-5 text-center pb-10 my-5">
       <div className="icon bg-[#a16207] relative -top-[2.1rem] p-2 rounded-lg">
@@ -8,7 +8,7 @@ export function Card(props) {
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-10 h-10"
+          className="w-10 h-10"
         >
           <path
             stroke-linecap="round"

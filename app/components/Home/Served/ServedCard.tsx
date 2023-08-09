@@ -1,4 +1,4 @@
-export function ServedCard(props) {
+export function ServedCard(props: any) {
   return (
     <div className="flex flex-col items-center border-[1px] py-5 rounded-lg border-[#f59f0bb2]">
       <div className="icon">
@@ -8,7 +8,7 @@ export function ServedCard(props) {
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="text-amber-500 w-12 h-12 mb-3 inline-block"
+          className="text-amber-500 w-12 h-12 mb-3 inline-block"
         >
           <path
             stroke-linecap="round"
@@ -17,8 +17,8 @@ export function ServedCard(props) {
           ></path>
         </svg>
       </div>
-      <div className="number text-4xl">627281</div>
-      <div className="text">Total Scans</div>
+      <div className="number text-4xl">{props.number}</div>
+      <div className="text">{props.des}</div>
     </div>
   );
 }
