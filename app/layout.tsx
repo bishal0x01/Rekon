@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-import { Navbar } from "./components/Navbar/Navbar";
-import { Footer } from "./components/Footer/Footer";
+import { Navbar } from "../components/Navbar/Navbar";
+import { Footer } from "../components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Rekon: The Ultimate Security Assessment Tool",
@@ -17,11 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="">
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+      <body className="">{children}</body>
     </html>
   );
 }
