@@ -9,6 +9,7 @@ export default function Topbar() {
   function togglePopup() {
     setOpenPopup(!openPopup);
   }
+
   return (
     <div className="pb-5 flex md:justify-between md:w-full flex-col md:flex-row">
       <div className="greet flex flex-col gap-1">

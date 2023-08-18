@@ -1,5 +1,6 @@
 "use:client";
 
+import Image from "next/image";
 import { Menu } from "./Menu";
 import { MenuItem } from "./MenuItem";
 
@@ -9,8 +10,10 @@ export function Navbar() {
       <div className="flex justify-between items-center">
         <div className="left flex items-center md:gap-16">
           <div className="logo">
-            <img
-              className="h-8"
+            <Image
+              width="8"
+              height="8"
+              alt="navlogo"
               src="https://prettyrecon.com/static/assets/img/logo.svg"
             />
           </div>

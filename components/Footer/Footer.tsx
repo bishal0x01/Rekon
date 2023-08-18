@@ -1,5 +1,7 @@
 "use: client";
 
+import Image from "next/image";
+
 export function Footer() {
   return (
     <footer className="flex justify-between pt-16 pb-10 flex-col px-5 md:px-10">
@@ -7,22 +9,32 @@ export function Footer() {
         <div className="left flex flex-col gap-3">
           <div className="company flex gap-5 items-center">
             <div className="logo">
-              <img
-                className="h-8"
+              <Image
+                width="8"
+                height="8"
+                alt="yo"
                 src="https://prettyrecon.com/static/assets/img/logo.svg"
               />
             </div>
             <span className="name">Rekon</span>
           </div>
-          <div className="des text-[#9ca3af]">Pretty-fy your reconnaissance</div>
+          <div className="des text-[#9ca3af]">
+            Pretty-fy your reconnaissance
+          </div>
         </div>
         <div className="right flex flex-col gap-3 lg:pr-[7rem]">
           <span className="">Company</span>
           <ul className="text-[#9ca3af]">
             <li className="hover:text-[#fff] cursor-pointer">Privacy Policy</li>
-            <li className="hover:text-[#fff] cursor-pointer">Shipping Policy</li>
-            <li className="hover:text-[#fff] cursor-pointer">Terms and Condition</li>
-            <li className="hover:text-[#fff] cursor-pointer">Refund / Cancellation</li>
+            <li className="hover:text-[#fff] cursor-pointer">
+              Shipping Policy
+            </li>
+            <li className="hover:text-[#fff] cursor-pointer">
+              Terms and Condition
+            </li>
+            <li className="hover:text-[#fff] cursor-pointer">
+              Refund / Cancellation
+            </li>
           </ul>
         </div>
       </div>

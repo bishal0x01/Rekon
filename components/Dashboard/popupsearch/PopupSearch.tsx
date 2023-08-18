@@ -1,7 +1,7 @@
 export default function PopupSearch(props: any) {
   const func = props.func;
   return (
-    <section className="absolute left-0 h-[100vh] w-[100vw] backdrop-blur-sm top-0" >
+    <section className="absolute left-0 h-[100vh] w-[100vw] backdrop-blur-sm top-0">
       <div className=" flex h-full items-center justify-center gap-5">
         <button type="button" onClick={func}>
           <svg width="30px" height="30px" viewBox="0 0 32 32" version="1.1">
@@ -41,6 +41,7 @@ export default function PopupSearch(props: any) {
             />
           </svg>
           <input
+            autoFocus
             id="popup-input"
             type="text"
             className="bg-transparent w-full h-16 outline-none"
